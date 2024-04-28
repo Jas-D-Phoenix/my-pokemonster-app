@@ -1,0 +1,28 @@
+.searchBar {
+  display: flex;
+}
+
+button {
+  background: linear-gradient(166.57deg, #ea85a5 5.47%, #e7a5bb 90.36%);
+  color: #391212;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 20px;
+  outline: none;
+}
+
+input {
+  margin: 20px;
+  height: 30px;
+  width: 350px;
+  border: 2px solid rgb(209, 72, 72);
+  background-color: #bf0918;
+  border-radius: 8px;
+  color: #1c0909;
+}
+
+.buttonDiv :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.content {
+  margin-top: 100px;
+}
+
+.grid {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.grid-item {
+  background: linear-gradient(166.57deg, #d00000 5.47%, #ff7950 90.36%);
+  border-radius: 22px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+  font-style: normal;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid :hover {
+  opacity: 60%;
+  transform: scale(1.05);
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}

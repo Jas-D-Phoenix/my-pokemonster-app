@@ -1,0 +1,26 @@
+.image img{
+    width: 100px;
+    height: 100px;
+}
+
+.card .image{
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+.link{
+    text-decoration: none;
+    color: #d10606;
+  }
+
